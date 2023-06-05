@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>GIT</title>
+</head>
+<body>
+    <div class="container1">
+      <div class="header"><center><img src="img/logo-pichau.png" alt=""></center></div>
+      <div class="navbar">
+          <div class="topnav" id="myTopnav" style="background-color: #231F20;">
+              <a style="margin-left: 42%;" href="index.html">Home</a>
+              <a style="position: relative;" href="produto.html">Produtos</a>
+              <a style="position: relative;" href="login.html">Login</a>
+              <a style="position: relative;" href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+      </div>
+        <center><div class="login" style="width: 50%; padding-bottom: 50px;">
+          <form action="action_page.php" method="post">
+            <div class="imgcontainer" style="margin-top: 30px;">
+              <img style="margin-top: 40px;" src="img/avatar2.svg" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+              <center><label for="uname"><b>Username</b></label></center>
+              <center><input style="width: 50%;" type="text" placeholder="Enter Username" name="uname" required></center>
+          
+              <center><label for="psw"><b>Password</b></label></center>
+              <center><input  style="width: 50%;" type="password" placeholder="Enter Password" name="psw" required></center>
+          
+              <button class="butt" type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          
+            
+          </form>
+        </div></center>
+        <div class="footer"><center><p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Web designer: Leonardo Fraga</p></center></div>
+    </div>
+</body>
+<script src="js/forms.js"></script>
+<script src="js/topnav.js"></script>
+<script src="js/slide.js"></script>
+<script src="js/port.js"></script>
+</html>

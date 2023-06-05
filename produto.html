@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/prod.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>GIT</title>
+</head>
+<body>
+    <div class="container1">
+        <div class="header"><center><img style="margin-top: 20px;" src="img/logo-pichau.png" alt=""></center></div>
+        <div class="navbar">
+            <div class="topnav" id="myTopnav" style="background-color: #231F20;">
+                <a style="margin-left: 42%; " href="index.html">Home</a>
+                <a style="position: relative;" href="produto.html">Produtos</a>
+                <a style="position: relative;" href="login.html">Login</a>
+                <a style="position: relative;" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+        </div>
+        <div class="content2">
+            <center><h1 style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Nossos Produtos</h1>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')" style="border-radius: 5px;"> Todos</button>
+  <button class="btn" onclick="filterSelection('perifericos')" style="border-radius: 5px;"> Periféricos</button>
+  <button class="btn" onclick="filterSelection('computadores')" style="border-radius: 5px;"> Computadores</button>
+  <button class="btn" onclick="filterSelection('monitores')" style="border-radius: 5px;"> Monitores</button>
+</div></center>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column computadores">
+    <div class="content2">
+      <img src="img/computador1.jpg" alt="Mountains" style="width:100%">
+      <center><h4 style="color: white;">COMPUTADOR GAMER</h4>
+      <p style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Placa de video: RTX3070 Processador: i7</p>
+      <button class="danger" style="cursor: pointer; background-color: #3f3e3e; border-radius: 10px; font-size: 18px;">Comprar</button></center>
+    </div>
+  </div>
+  <div class="column computadores">
+    <div class="content2">
+      <img src="img/computador2.jpg" alt="Lights" style="width:100%">
+      <center><h4 style="color: white;">COMPUTADOR GAMER</h4>
+      <p style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Placa de video: RTX2060 Processador: i5</p>
+      <button class="danger" style="cursor: pointer; background-color: #3f3e3e; border-radius: 10px; font-size: 18px;">Comprar</button></center>
+    </div>
+  </div>
+
+
+  <div class="column perifericos">
+    <div class="content2">
+      <img src="img/peeriferico.jpg" alt="Car" style="width:100%">
+      <center><h4 style="color: white;">HEADSET GAMER</h4>
+      <p style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">HyperX Cloud Alpha</p>
+      <button class="danger" style="cursor: pointer; background-color: #3f3e3e; border-radius: 10px; font-size: 18px;">Comprar</button></center>
+    </div>
+  </div>
+  <div class="column perifericos">
+    <div class="content2">
+      <img src="img/periferico.jpg" alt="Car" style="width:100%">
+      <center><h4 style="color: white;">CAIXA DE SOM PICHAU</h4>
+      <p style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Led Azul 11WRMS</p>
+      <button class="danger" style="cursor: pointer; background-color: #3f3e3e; border-radius: 10px; font-size: 18px;">Comprar</button></center>
+    </div>
+  </div>
+
+  <div class="column monitores">
+    <div class="content2">
+      <img src="img/monitor1jpg.jpg" alt="People" style="width:100%">
+      <center><h4 style="color: white;">MONITOR GAMER</h4>
+      <p style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Full HD 240Hz</p>
+      <button class="danger" style="cursor: pointer; background-color: #3f3e3e; border-radius: 10px; font-size: 18px;">Comprar</button></center>
+    </div>
+  </div>
+  <div class="column monitores">
+    <div class="content2">
+      <img src="img/monitor2.jpg" alt="People" style="width:100%">
+      <center><h4 style="color: white;">MONITOR GAMER</h4>
+      <p style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Full HD 60Hz</p>
+      <button class="danger" style="cursor: pointer; background-color: #3f3e3e; border-radius: 10px; font-size: 18px;">Comprar</button></center>
+    
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+        </div>
+        <div class="footer"><center><p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Web designer: Leonardo Fraga</p></center></div>
+    </div>
+</body>
+<script src="js/forms.js"></script>
+<script src="js/topnav.js"></script>
+<script src="js/port.js"></script>
+</html>

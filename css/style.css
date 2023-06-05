@@ -1,0 +1,80 @@
+.container1{
+background: #3f3e3e;
+width: auto;
+height: auto;
+margin: 0 auto;
+}
+.header{
+background: #ffffff;
+width: 100%;
+height: 170px;
+float: left;
+}
+.navbar{
+background: #ffffff;
+width: 100%;
+height: auto;
+float: left;
+
+}
+.content1{
+background: #3f3e3e;
+width: 100%;
+height: auto;
+float: left;
+}
+.content-b{
+background: #3f3e3e;
+width: 100%;
+height: auto;
+float: left;
+}
+.content-c{
+margin-top: 0px;    
+background: #3f3e3e;
+height: 100px;    
+width: auto;
+}
+.content-f{    
+  background: #3f3e3e;
+  height: auto;    
+  width: 26%;
+  float: right;
+  }
+.content-e{
+background: #3f3e3e;
+width: 50%;
+height: auto;
+float: left;
+}
+.content-d{
+background: #3f3e3e;
+width: 50%;
+height: auto;
+float: left;
+}
+.footer{
+background: #999;
+width: 100%;
+height: 50px;
+float: left;
+}
+.btn {
+border: 2px solid black;
+background-color: white;
+color: black;
+padding: 14px 28px;
+font-size: 16px;
+cursor: pointer;
+  }
+.danger {
+border-color: #f44336;
+color: rgb(252, 55, 55)
+}
+
+
+@media screen and (max-width: 600px){
+    .login,.content-f,.container, .header, .content, .content-d,.content-e,.navbar, .footer, .btn, .danger, .content-b, .content-c{
+        width: 100%;
+}
+}
